@@ -16,7 +16,7 @@
 
     echo ($a == $b) && ($c > $b), "<br>";
     echo ($a == $b) || ($b > $c), "<br>";
-    echo !($b <= $c), "<br>";
+    echo ($b <= $c), "<br>";
     
     ?>
 </body>
