@@ -16,7 +16,7 @@
             echo "Favor coloque el apellido";
         }
         echo "<br>";
-        if($_REQUEST[Nombre]!=""){
+        if($_REQUEST['Nombre']!=""){
             echo "el nombre Ingresado es: $_REQUEST[Nombre]";
         }else{
             echo "Favor coloque el nombre";
